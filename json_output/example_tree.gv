@@ -1,0 +1,13 @@
+digraph example_tree {
+	node [color=lightblue2 style=filled]
+	Response
+	{
+		rank=same
+		name
+		Response -> name [label=John color="#96abff" fontcolor="#96abff"]
+		age
+		Response -> age [label=30 color="#d25f76" fontcolor="#d25f76"]
+		car
+		Response -> car [label=null color="#96abff" fontcolor="#96abff"]
+	}
+}

@@ -1,0 +1,40 @@
+---
+testbed:
+  name: cml-lab
+  credentials: 
+    default:
+      username: "cisco"
+      password: "cisco"
+      enable: "cisco"
+
+devices:
+  nxos9000-0:
+    os: nxos
+    type: nxos
+    credentials: 
+      default:
+        username: "cisco"
+        password: "cisco"
+        enable: "cisco"
+    connections:
+      defaults:
+        class: unicon.Unicon
+      ssh:
+        protocol: ssh
+        ip: "x.x.x.x"
+        port: "22"
+  nxos9000-1:
+    os: nxos
+    type: nxos
+    credentials: 
+      default:
+        username: "cisco"
+        password: "cisco"
+        enable: "cisco"
+    connections:
+      defaults:
+        class: unicon.Unicon
+      ssh:
+        protocol: ssh
+        ip: "x.x.x.x"
+        port: "22"
